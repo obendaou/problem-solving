@@ -7,6 +7,9 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | Problem | Topic | Approach | Expected time | Extra space |
 | --- | --- | --- | --- | --- |
 | [Two Sum](arrays-and-hashing/two-sum/README.md) | Arrays and hash maps | One-pass complement lookup | O(n) | O(n) |
+| [Count Pairs with a Given Sum](arrays-and-hashing/count-pairs/README.md) | Arrays and hash maps | Count earlier complement frequencies | O(n) | O(k), at most O(n) |
+
+Here, n is the input length and k is the number of distinct values.
 
 ## Organization
 
@@ -22,6 +25,6 @@ My practice repository for data structures, algorithms, and explaining how I sol
 4. Document why it works and its complexity.
 5. Revisit later and solve again without hints.
 
-These entries document learning, including coached practice; a published solution does not imply independent mastery. Counts and review results are added only when verified. The pair-counting variation is still in progress and is not included as a completed solution.
+These entries document learning, including coached practice; a published solution does not imply independent mastery. Counts and review results are added only when verified.
 
 Problem descriptions are short paraphrases; links point to the original sources.
