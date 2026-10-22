@@ -9,11 +9,14 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Two Sum](arrays-and-hashing/two-sum/README.md) | Arrays and hash maps | One-pass complement lookup | O(n) | O(n) |
 | [Count Pairs with a Given Sum](arrays-and-hashing/count-pairs/README.md) | Arrays and hash maps | Count earlier complement frequencies | O(n) | O(k), at most O(n) |
 
+| [Longest Substring Without Repeating Characters](sliding-window/longest-substring-without-repeating-characters/README.md) | Strings and sliding window | Last-seen ASCII table | O(n) | O(1) |
+
 Here, n is the input length and k is the number of distinct values.
 
 ## Organization
 
 - `arrays-and-hashing/`: problems involving arrays and hash maps.
+- `sliding-window/`: problems involving a moving contiguous range.
 - Each problem directory contains a `README.md` and `solution.cpp`.
 - `templates/problem-readme.md`: documentation structure for future entries.
 
