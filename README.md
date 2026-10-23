@@ -10,6 +10,7 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Count Pairs with a Given Sum](arrays-and-hashing/count-pairs/README.md) | Arrays and hash maps | Count earlier complement frequencies | O(n) | O(k), at most O(n) |
 | [Longest Substring Without Repeating Characters](sliding-window/longest-substring-without-repeating-characters/README.md) | Strings and sliding window | Last-seen ASCII table | O(n) | O(1) |
 | [Valid Parentheses](stacks/valid-parentheses/README.md) | Stacks | Match most recent unmatched opening | O(n) | O(n) |
+| [Min Stack](stacks/min-stack/README.md) | Stacks | Store a minimum with each entry | O(1) per operation | O(n) |
 
 Here, n is the input length and k is the number of distinct values.
 
