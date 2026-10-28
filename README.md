@@ -12,6 +12,8 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Valid Parentheses](stacks/valid-parentheses/README.md) | Stacks | Match most recent unmatched opening | O(n) | O(n) |
 | [Min Stack](stacks/min-stack/README.md) | Stacks | Store a minimum with each entry | O(1) per operation | O(n) |
 | [Binary Search](binary-search/binary-search/README.md) | Binary search | Halve an inclusive search interval | O(log n) | O(1) |
+| [House Robber](dynamic-programming/house-robber/README.md) | Dynamic programming | Rolling states ending at each house | O(n) | O(1) |
+| [House Robber II](dynamic-programming/house-robber-ii/README.md) | Dynamic programming | Two inclusive linear ranges | O(n) | O(1) |
 
 Here, n is the input length and k is the number of distinct values.
 
@@ -21,6 +23,7 @@ Here, n is the input length and k is the number of distinct values.
 - `sliding-window/`: problems involving a moving contiguous range.
 - `stacks/`: problems using last-in, first-out processing.
 - `binary-search/`: problems using sorted search intervals.
+- `dynamic-programming/`: problems solved using reusable optimal subproblem states.
 - Each problem directory contains a `README.md` and `solution.cpp`.
 - `templates/problem-readme.md`: documentation structure for future entries.
 
