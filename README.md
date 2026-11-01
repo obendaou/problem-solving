@@ -14,8 +14,9 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Binary Search](binary-search/binary-search/README.md) | Binary search | Halve an inclusive search interval | O(log n) | O(1) |
 | [House Robber](dynamic-programming/house-robber/README.md) | Dynamic programming | Rolling states ending at each house | O(n) | O(1) |
 | [House Robber II](dynamic-programming/house-robber-ii/README.md) | Dynamic programming | Two inclusive linear ranges | O(n) | O(1) |
+| [Maximum Depth of Binary Tree](trees/maximum-depth-of-binary-tree/README.md) | Trees and recursion | Combine child subtree depths | O(n) | O(h) |
 
-Here, n is the input length and k is the number of distinct values.
+Here, n is the input length (or node count for trees), k is the number of distinct values, and h is tree height.
 
 ## Organization
 
@@ -24,6 +25,7 @@ Here, n is the input length and k is the number of distinct values.
 - `stacks/`: problems using last-in, first-out processing.
 - `binary-search/`: problems using sorted search intervals.
 - `dynamic-programming/`: problems solved using reusable optimal subproblem states.
+- `trees/`: problems involving tree traversal and recursive subtrees.
 - Each problem directory contains a `README.md` and `solution.cpp`.
 - `templates/problem-readme.md`: documentation structure for future entries.
 
