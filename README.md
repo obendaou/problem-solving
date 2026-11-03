@@ -15,6 +15,7 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [House Robber](dynamic-programming/house-robber/README.md) | Dynamic programming | Rolling states ending at each house | O(n) | O(1) |
 | [House Robber II](dynamic-programming/house-robber-ii/README.md) | Dynamic programming | Two inclusive linear ranges | O(n) | O(1) |
 | [Maximum Depth of Binary Tree](trees/maximum-depth-of-binary-tree/README.md) | Trees and recursion | Combine child subtree depths | O(n) | O(h) |
+| [3Sum](arrays-and-hashing/3sum/README.md) | Arrays and two pointers | Sort, fix an anchor, and scan inward | O(n²) | O(log n) typical sort stack, excluding output |
 
 Here, n is the input length (or node count for trees), k is the number of distinct values, and h is tree height.
 
