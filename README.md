@@ -16,8 +16,13 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [House Robber II](dynamic-programming/house-robber-ii/README.md) | Dynamic programming | Two inclusive linear ranges | O(n) | O(1) |
 | [Maximum Depth of Binary Tree](trees/maximum-depth-of-binary-tree/README.md) | Trees and recursion | Combine child subtree depths | O(n) | O(h) |
 | [3Sum](arrays-and-hashing/3sum/README.md) | Arrays and two pointers | Sort, fix an anchor, and scan inward | O(n²) | O(log n) typical sort stack, excluding output |
+| [Boats to Save People](two-pointers/boats-to-save-people/README.md) | Greedy and two pointers | Pair heaviest with lightest when feasible | O(n log n) | O(log n) typical sort stack |
+| [Minimum Size Subarray Sum](sliding-window/minimum-size-subarray-sum/README.md) | Sliding window | Expand or shrink a half-open sum window | O(n) | O(1) |
+| [Permutation in String](sliding-window/permutation-in-string/README.md) | Sliding window | Compare fixed-size character frequencies | O(m + n) | O(1) |
+| [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array/README.md) | Binary search | Preserve the minimum inside an inclusive interval | O(log n) | O(1) |
+| [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array/README.md) | Binary search | Find pivot, select sorted half, then binary-search | O(log n) | O(1) |
 
-Here, n is the input length (or node count for trees), k is the number of distinct values, and h is tree height.
+Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, and m/n denote the two string lengths for Permutation in String.
 
 ## Organization
 
@@ -27,6 +32,7 @@ Here, n is the input length (or node count for trees), k is the number of distin
 - `binary-search/`: problems using sorted search intervals.
 - `dynamic-programming/`: problems solved using reusable optimal subproblem states.
 - `trees/`: problems involving tree traversal and recursive subtrees.
+- `two-pointers/`: problems using coordinated inward pointer moves.
 - Each problem directory contains a `README.md` and `solution.cpp`.
 - `templates/problem-readme.md`: documentation structure for future entries.
 
