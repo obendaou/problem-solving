@@ -26,6 +26,7 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Squares of a Sorted Array](two-pointers/squares-of-a-sorted-array/README.md) | Binary search and two pointers | Split at first nonnegative, then merge squares | O(n) | O(1) excluding output |
 | [Reverse Linked List](linked-lists/reverse-linked-list/README.md) | Linked lists | Reverse links with a saved next pointer | O(n) | O(1) |
 | [Swap Nodes in Pairs](linked-lists/swap-nodes-in-pairs/README.md) | Linked lists | Rewire each pair and reconnect the previous tail | O(n) | O(1) |
+| [Linked List Cycle](linked-lists/linked-list-cycle/README.md) | Linked lists | Detect when fast and slow meet | O(n) | O(1) |
 
 Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, and m/n denote the two string lengths for Permutation in String.
 
