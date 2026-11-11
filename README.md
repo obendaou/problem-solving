@@ -1,6 +1,6 @@
-# Problem Solving in C++
+# Problem Solving
 
-My practice repository for data structures, algorithms, and explaining how I solve problems. Each completed entry includes my reasoning, a dry run, a C++ implementation, complexity analysis, and lessons learned.
+My practice repository for data structures, algorithms, and explaining how I solve problems. Each completed entry includes my reasoning, a dry run, a C++ or Python implementation, complexity analysis, and lessons learned.
 
 ## Problems
 
@@ -33,7 +33,7 @@ Here, n is the input length (or node count for trees), k is the number of distin
 - `dynamic-programming/`: problems solved using reusable optimal subproblem states.
 - `trees/`: problems involving tree traversal and recursive subtrees.
 - `two-pointers/`: problems using coordinated inward pointer moves.
-- Each problem directory contains a `README.md` and `solution.cpp`.
+- Each problem directory contains a `README.md` and an implementation (`solution.cpp` or `solution.py`).
 - `templates/problem-readme.md`: documentation structure for future entries.
 
 ## Learning workflow

@@ -143,3 +143,7 @@ Those executions covered my submitted version, including its original size initi
 ## Practice context
 
 I proposed binary search, developed recursive and iterative versions, and corrected the boundary conditions through coached feedback. This entry documents that learning and includes editorial cleanup; it does not claim independent mastery.
+
+## Python version
+
+[Python implementation](solution.py) uses the same inclusive search interval. It uses integer division for the midpoint and supports nondecreasing lists with duplicates, returning any matching index. Worst-case time is O(log n) and extra space is O(1). The published version passed 9,009 comparisons with a direct lookup reference, including empty and singleton inputs.
