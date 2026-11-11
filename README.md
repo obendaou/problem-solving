@@ -23,6 +23,7 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array/README.md) | Binary search | Find pivot, select sorted half, then binary-search | O(log n) | O(1) |
 | [Sorted Pair Sum](two-pointers/sorted-pair-sum/README.md) | Two pointers | Eliminate one endpoint per comparison | O(n) | O(1) |
 | [Subarray Sum Equals K](arrays-and-hashing/subarray-sum-equals-k/README.md) | Prefix sums and hashing | Count earlier prefixes equal to sum minus k | O(n) expected | O(n) |
+| [Squares of a Sorted Array](two-pointers/squares-of-a-sorted-array/README.md) | Binary search and two pointers | Split at first nonnegative, then merge squares | O(n) | O(1) excluding output |
 
 Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, and m/n denote the two string lengths for Permutation in String.
 
