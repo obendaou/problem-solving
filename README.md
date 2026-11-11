@@ -24,6 +24,7 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Sorted Pair Sum](two-pointers/sorted-pair-sum/README.md) | Two pointers | Eliminate one endpoint per comparison | O(n) | O(1) |
 | [Subarray Sum Equals K](arrays-and-hashing/subarray-sum-equals-k/README.md) | Prefix sums and hashing | Count earlier prefixes equal to sum minus k | O(n) expected | O(n) |
 | [Squares of a Sorted Array](two-pointers/squares-of-a-sorted-array/README.md) | Binary search and two pointers | Split at first nonnegative, then merge squares | O(n) | O(1) excluding output |
+| [Reverse Linked List](linked-lists/reverse-linked-list/README.md) | Linked lists | Reverse links with a saved next pointer | O(n) | O(1) |
 
 Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, and m/n denote the two string lengths for Permutation in String.
 
@@ -36,6 +37,7 @@ Here, n is the input length (or node count for trees), k is the number of distin
 - `dynamic-programming/`: problems solved using reusable optimal subproblem states.
 - `trees/`: problems involving tree traversal and recursive subtrees.
 - `two-pointers/`: problems using coordinated inward pointer moves.
+- `linked-lists/`: problems involving node pointers and links.
 - Each problem directory contains a `README.md` and an implementation (`solution.cpp` or `solution.py`).
 - `templates/problem-readme.md`: documentation structure for future entries.
 
