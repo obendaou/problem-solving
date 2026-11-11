@@ -21,6 +21,7 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Permutation in String](sliding-window/permutation-in-string/README.md) | Sliding window | Compare fixed-size character frequencies | O(m + n) | O(1) |
 | [Find Minimum in Rotated Sorted Array](binary-search/find-minimum-in-rotated-sorted-array/README.md) | Binary search | Preserve the minimum inside an inclusive interval | O(log n) | O(1) |
 | [Search in Rotated Sorted Array](binary-search/search-in-rotated-sorted-array/README.md) | Binary search | Find pivot, select sorted half, then binary-search | O(log n) | O(1) |
+| [Sorted Pair Sum](two-pointers/sorted-pair-sum/README.md) | Two pointers | Eliminate one endpoint per comparison | O(n) | O(1) |
 
 Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, and m/n denote the two string lengths for Permutation in String.
 
