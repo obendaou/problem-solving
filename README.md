@@ -28,6 +28,7 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Swap Nodes in Pairs](linked-lists/swap-nodes-in-pairs/README.md) | Linked lists | Rewire each pair and reconnect the previous tail | O(n) | O(1) |
 | [Linked List Cycle](linked-lists/linked-list-cycle/README.md) | Linked lists | Detect when fast and slow meet | O(n) | O(1) |
 | [Middle of the Linked List](linked-lists/middle-of-the-linked-list/README.md) | Linked lists | Move fast twice for every slow step | O(n) | O(1) |
+| [Binary Tree Preorder Traversal](trees/binary-tree-preorder-traversal/README.md) | Trees and recursion | Visit node, left subtree, then right subtree | O(n) | O(h) |
 
 Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, and m/n denote the two string lengths for Permutation in String.
 
