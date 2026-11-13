@@ -30,8 +30,9 @@ My practice repository for data structures, algorithms, and explaining how I sol
 | [Middle of the Linked List](linked-lists/middle-of-the-linked-list/README.md) | Linked lists | Move fast twice for every slow step | O(n) | O(1) |
 | [Binary Tree Preorder Traversal](trees/binary-tree-preorder-traversal/README.md) | Trees and recursion | Visit node, left subtree, then right subtree | O(n) | O(h) |
 | [Count Deepest Leaves](trees/count-deepest-leaves/README.md) | Trees and recursion | Track the maximum depth and its node count | O(n) | O(h) |
+| [Binary Tree Level Order Traversal](trees/binary-tree-level-order-traversal/README.md) | Trees and BFS | Group queue entries by a level-size counter | O(n) | O(w) |
 
-Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, and m/n denote the two string lengths for Permutation in String.
+Here, n is the input length (or node count for trees), k is the number of distinct values, h is tree height, w is maximum tree width, and m/n denote the two string lengths for Permutation in String.
 
 ## Organization
 
